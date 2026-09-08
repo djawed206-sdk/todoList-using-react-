@@ -1,0 +1,30 @@
+
+.card{
+   
+
+}
+.card:hover{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.done:hover{
+    color:#00897b;
+    background-color: rgba(128, 128, 128, 0.532) !important;
+}
+#Missions::-webkit-scrollbar {
+  width: 6px;
+}
+
+#Missions::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#Missions::-webkit-scrollbar-thumb {
+  background-color: #00897b;
+  border-radius: 10px;
+}
+
+#Missions {
+  scrollbar-width: thin;
+  scrollbar-color: #00897b transparent;
+}
